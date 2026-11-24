@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+# DAO-Ethereum
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Смарт-контракт простой DAO с возможностью голосования и передачи голосов между участниками.
 
-Try running some of the following tasks:
 
+## Установка
 ```shell
-npx hardhat help
+npm install
+# Компиляция
+npx hardhat compile
+# Запуск тестов
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+npx hardhat test --verbose
 ```
